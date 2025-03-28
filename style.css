@@ -1,0 +1,23 @@
+body{
+    background-color: #f3cea3;
+}
+
+#title{
+    background-color: #f3a3c5;
+    color: #12373d;
+    text-align: center;
+    font-size: 50px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.list{
+    background-color: #c4f3a3;
+}
+
+ul{
+    color: #da6797;
+}
+
+a {
+    color: #7670be;
+}
