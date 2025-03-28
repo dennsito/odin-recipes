@@ -1,14 +1,18 @@
 html{
     box-sizing: border-box;
 }
+*{
+    box-sizing: border-box;
+}
 
 body{
     font-family: Helvetica, Arial, sans-serif;
+    background-color: #FBE9D0;
 }
 
 .header{
     outline: red;
-    background-color: #1FA7DC;
+    background-color: #244855;
     padding: 8px;
     margin-bottom: 15px;
 }
@@ -16,12 +20,12 @@ body{
 #title{
     /* outline: blue solid 3px; */
     width: 290px;
-    background-color: #DC541F;
-    color: #fff;
+    background-color: #E64833;
+    color: #FFF;
     font-size: 50px;
     text-align: center;
     margin: 0 auto;
-    border-radius: 20px;
+    border-radius: 40px;
     padding: 5px 0;
 }
 .container{
@@ -32,10 +36,19 @@ body{
 
 .left{
     /* outline: red solid; */
-    background-color: #d9cdf8;
+    background-color: #90AEAD;
     width: 250px;
     border-radius: 15px;
     margin-top: 10px;
+    position: sticky;
+    top: 85px;
+    float:left;
+}
+.lefttext{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color:#FFF;
 }
 
 .list{
@@ -46,7 +59,7 @@ body{
     margin: 10px 15px 0 90px;
 }
 h3 {
-    color: #1985AF;
+    color: #244855;
 }
 ul{
     list-style-type: none;
@@ -57,15 +70,15 @@ ul{
     display: inline-block;
     color: #000;
     text-decoration: none;
-    border: solid 2px #1FDC54;
-    border-radius: 10px;;
+    border: solid 2px #E64833;
+    border-radius: 10px;
     margin: 8px;
     padding: 8px;
 }
 .recipelink:hover {
     color: #fff;
     text-decoration: none;
-    background-color: #1FDC54;
+    background-color: #E64833;
 }
 .homebtn{
     font-size: 24px;
@@ -85,6 +98,19 @@ ul{
     background-color: #1FA7DC;
 }
 
+.recipename{
+    border: #874F41 solid 3px;
+    border-radius: 30px;
+    background-color:whitesmoke ;
+    color:#244855;
+    font-size: 48px;
+    text-align: center;
+    padding: 20px;
+    width: 500px;
+    height: auto;
+    margin: 5px auto;
+}
+
 .imgrecipe {
     display: block;
     margin: 0 auto;
@@ -93,8 +119,13 @@ ul{
     height: auto;
 }
 
-.recipename{
-    text-align: center;
-    font-size: 48px;
+.content{
+    width: 800px;
+    display: block;
+    margin: 40px auto;
+    background-color: whitesmoke;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: dotted 6px #244855;
 }
 
